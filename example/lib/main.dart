@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:global_snackbars/global_snackbars.dart';
+import 'package:aura_snackbars/aura_snackbars.dart';
 
 void main() {
   runApp(const MyApp());
