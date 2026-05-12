@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Minor documentation improvements.
+
 ## 1.0.1
 
 * Updated documentation with demo screen recording.
