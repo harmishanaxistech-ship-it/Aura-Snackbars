@@ -5,7 +5,10 @@ A production-ready Flutter package for showing beautiful, reusable, and globally
 ## Demo
 
 <div align="center">
-  <video src="https://raw.githubusercontent.com/harmishanaxistech-ship-it/Aura-Snackbars/main/screenshots/demo.mp4" width="300" controls></video>
+  <a href="https://github.com/harmishanaxistech-ship-it/Aura-Snackbars/blob/main/screenshots/demo.mp4">
+    <img src="https://raw.githubusercontent.com/harmishanaxistech-ship-it/Aura-Snackbars/main/screenshots/demo.mp4" alt="Watch the Demo Video" />
+  </a>
+  <p><i>Click the image above to watch the demo video if it doesn't play automatically.</i></p>
 </div>
 
 ## Features
