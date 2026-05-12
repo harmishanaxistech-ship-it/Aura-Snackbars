@@ -1,0 +1,20 @@
+name: smart_snackbars_example
+description: Demonstrates how to use the smart_snackbars package.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  smart_snackbars:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
