@@ -1,4 +1,4 @@
-library smart_snackbars;
+library global_snackbars;
 
 export 'src/core/smart_snack.dart';
 export 'src/core/snackbar_config.dart';

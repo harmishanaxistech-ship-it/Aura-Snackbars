@@ -1,4 +1,4 @@
-name: smart_snackbars_example
+name: global_snackbars_example
 description: Demonstrates how to use the smart_snackbars package.
 publish_to: 'none'
 
@@ -8,7 +8,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  smart_snackbars:
+  global_snackbars:
     path: ../
 
 dev_dependencies:
