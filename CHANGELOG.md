@@ -1,6 +1,6 @@
 ## 1.0.1
 
-* Updated documentation with screenshots.
+* Updated documentation with demo screen recording.
 * Cleaned up the example project.
 
 ## 1.0.0
