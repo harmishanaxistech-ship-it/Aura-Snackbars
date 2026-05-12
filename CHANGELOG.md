@@ -1,3 +1,7 @@
+## 1.0.3
+
+* Documentation cleanup.
+
 ## 1.0.2
 
 * Minor documentation improvements.
