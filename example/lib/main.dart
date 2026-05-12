@@ -96,6 +96,23 @@ class MyHomePage extends StatelessWidget {
                   ),
                 ),
               ),
+              _buildButton(
+                label: 'With Custom Image',
+                color: Colors.brown,
+                onPressed: () => SmartSnack.show(
+                  message: 'Custom image snackbar!',
+                  type: SnackType.info,
+                  leading: ClipRRect(
+                    borderRadius: BorderRadius.circular(4),
+                    child: Image.network(
+                      'https://picsum.photos/200',
+                      width: 40,
+                      height: 40,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),

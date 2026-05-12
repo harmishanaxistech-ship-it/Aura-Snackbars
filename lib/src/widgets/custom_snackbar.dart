@@ -39,7 +39,9 @@ class CustomSnackBar extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            if (type == SnackType.loading)
+            if (config.leading != null)
+              config.leading!
+            else if (type == SnackType.loading)
               const SizedBox(
                 width: 20,
                 height: 20,
