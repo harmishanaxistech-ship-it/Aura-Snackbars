@@ -10,7 +10,6 @@ class SmartSnackConfig {
   final Color? backgroundColor;
   final Color? textColor;
   final IconData? icon;
-  final Widget? leading;
 
   const SmartSnackConfig({
     this.duration = const Duration(seconds: 3),
@@ -21,7 +20,6 @@ class SmartSnackConfig {
     this.backgroundColor,
     this.textColor,
     this.icon,
-    this.leading,
   });
 
   factory SmartSnackConfig.forType(SnackType type) {

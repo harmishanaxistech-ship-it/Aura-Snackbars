@@ -8,47 +8,47 @@ class SmartSnack {
     SnackBarService().init(navigatorKey);
   }
 
-  static void success(String message, {SmartSnackConfig? config, Widget? action, Widget? leading}) {
+  static void success(String message, {SmartSnackConfig? config, Widget? action}) {
     SnackBarService().show(
       message: message,
       type: SnackType.success,
-      config: _combineConfig(config, leading),
+      config: config,
       action: action,
     );
   }
 
-  static void error(String message, {SmartSnackConfig? config, Widget? action, Widget? leading}) {
+  static void error(String message, {SmartSnackConfig? config, Widget? action}) {
     SnackBarService().show(
       message: message,
       type: SnackType.error,
-      config: _combineConfig(config, leading),
+      config: config,
       action: action,
     );
   }
 
-  static void warning(String message, {SmartSnackConfig? config, Widget? action, Widget? leading}) {
+  static void warning(String message, {SmartSnackConfig? config, Widget? action}) {
     SnackBarService().show(
       message: message,
       type: SnackType.warning,
-      config: _combineConfig(config, leading),
+      config: config,
       action: action,
     );
   }
 
-  static void info(String message, {SmartSnackConfig? config, Widget? action, Widget? leading}) {
+  static void info(String message, {SmartSnackConfig? config, Widget? action}) {
     SnackBarService().show(
       message: message,
       type: SnackType.info,
-      config: _combineConfig(config, leading),
+      config: config,
       action: action,
     );
   }
 
-  static void loading(String message, {SmartSnackConfig? config, Widget? leading}) {
+  static void loading(String message, {SmartSnackConfig? config}) {
     SnackBarService().show(
       message: message,
       type: SnackType.loading,
-      config: _combineConfig(config, leading),
+      config: config,
     );
   }
 
@@ -57,29 +57,12 @@ class SmartSnack {
     required SnackType type,
     SmartSnackConfig? config,
     Widget? action,
-    Widget? leading,
   }) {
     SnackBarService().show(
       message: message,
       type: type,
-      config: _combineConfig(config, leading),
+      config: config,
       action: action,
-    );
-  }
-
-  static SmartSnackConfig? _combineConfig(SmartSnackConfig? config, Widget? leading) {
-    if (leading == null) return config;
-    if (config == null) return SmartSnackConfig(leading: leading);
-    return SmartSnackConfig(
-      duration: config.duration,
-      position: config.position,
-      borderRadius: config.borderRadius,
-      padding: config.padding,
-      margin: config.margin,
-      backgroundColor: config.backgroundColor,
-      textColor: config.textColor,
-      icon: config.icon,
-      leading: leading,
     );
   }
 

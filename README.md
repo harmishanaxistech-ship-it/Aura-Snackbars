@@ -1,6 +1,16 @@
-# Smart Snackbars
+# Aura Snackbars
 
 A production-ready Flutter package for showing beautiful, reusable, and globally accessible snackbars/toasts without needing `BuildContext`.
+
+## Screenshots
+
+| Success | Error | Warning |
+|:---:|:---:|:---:|
+| ![Success](https://raw.githubusercontent.com/harmishanaxistech-ship-it/Aura-Snackbars/main/screenshots/success.png) | ![Error](https://raw.githubusercontent.com/harmishanaxistech-ship-it/Aura-Snackbars/main/screenshots/error.png) | ![Warning](https://raw.githubusercontent.com/harmishanaxistech-ship-it/Aura-Snackbars/main/screenshots/warning.png) |
+
+| Info | Loading | Custom |
+|:---:|:---:|:---:|
+| ![Info](https://raw.githubusercontent.com/harmishanaxistech-ship-it/Aura-Snackbars/main/screenshots/info.png) | ![Loading](https://raw.githubusercontent.com/harmishanaxistech-ship-it/Aura-Snackbars/main/screenshots/loading.png) | ![Custom](https://raw.githubusercontent.com/harmishanaxistech-ship-it/Aura-Snackbars/main/screenshots/custom.png) |
 
 ## Features
 

@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     SmartSnack.init(navigatorKey);
 
     return MaterialApp(
-      title: 'Smart Snackbar Demo',
+      title: 'Aura Snackbar Demo',
       navigatorKey: navigatorKey,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -34,7 +34,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Smart Snackbar Demo'),
+        title: const Text('Aura Snackbar Demo'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: Center(
@@ -93,23 +93,6 @@ class MyHomePage extends StatelessWidget {
                   action: TextButton(
                     onPressed: () => SmartSnack.dismiss(),
                     child: const Text('UNDO', style: TextStyle(color: Colors.white)),
-                  ),
-                ),
-              ),
-              _buildButton(
-                label: 'With Custom Image',
-                color: Colors.brown,
-                onPressed: () => SmartSnack.show(
-                  message: 'Custom image snackbar!',
-                  type: SnackType.info,
-                  leading: ClipRRect(
-                    borderRadius: BorderRadius.circular(4),
-                    child: Image.network(
-                      'https://picsum.photos/200',
-                      width: 40,
-                      height: 40,
-                      fit: BoxFit.cover,
-                    ),
                   ),
                 ),
               ),
